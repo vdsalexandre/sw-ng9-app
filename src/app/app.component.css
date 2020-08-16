@@ -1,0 +1,26 @@
+.col {
+    background: coral;
+    color: white;
+    /* border: white solid 1px; */
+    height: 50px;
+}
+
+#div-navigation {
+    background: gray;
+    height: 700px;
+}
+
+#div-section {
+    background: indigo;
+    height: 700px;
+}
+
+header {
+    background: orangered;
+    height: 50px;
+}
+
+.content {
+    width: 85%;
+    margin: auto;
+}
