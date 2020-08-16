@@ -8,4 +8,5 @@
 .card {
     border: red solid 4px;
     height: 220px;
+    cursor: pointer;
 }
