@@ -1,8 +1,7 @@
 .col {
     background: coral;
     color: white;
-    /* border: white solid 1px; */
-    height: 50px;
+    height: 60px;
 }
 
 #div-navigation {
@@ -17,10 +16,9 @@
 
 header {
     background: orangered;
-    height: 50px;
 }
 
 .content {
-    width: 85%;
+    width: 95%;
     margin: auto;
 }

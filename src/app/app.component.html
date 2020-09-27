@@ -1,6 +1,8 @@
 <div class="content">
     <header class="col s12 center">
-        <h3>HEADER</h3>
+        <a href="#home" router-link="/">
+            <h3>7 Wonders Online</h3>
+        </a>
     </header>
     <div class="row">
         <div id="div-navigation" class="col s3 m3 l3 xl2">
@@ -21,7 +23,7 @@
         </div>
         <div id="div-section" class="col s9 m9 l9 xl10">
             <h4>SECTION</h4>
-            <app-admingame></app-admingame>
+            <router-outlet></router-outlet>
         </div>
     </div>
 </div>

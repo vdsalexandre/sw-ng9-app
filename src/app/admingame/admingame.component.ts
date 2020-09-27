@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 import * as $ from 'jquery';
 
@@ -11,7 +12,7 @@ export class AdmingameComponent implements OnInit {
 
   private delayChangeInMs: number = 10000;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     this.updateBackgroundImage();
@@ -29,5 +30,10 @@ export class AdmingameComponent implements OnInit {
 
       $("#divAdmin").css("background-image", "url('../../assets/img/empty_cities/" + images[index] + ".jpg')");
     }, this.delayChangeInMs);
+  }
+
+  createGame(): void {
+    let link = ['/game'];
+    this.router.navigate(link);
   }
 }

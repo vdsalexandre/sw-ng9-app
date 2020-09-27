@@ -1,8 +1,11 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { AppComponent } from './app.component';
+import { RouteRoutingModule } from './route/route-routing.module';
 import { AdmingameComponent } from './admingame/admingame.component';
+import { RouteModule } from './route/route.module';
 
 @NgModule({
   declarations: [
@@ -10,9 +13,11 @@ import { AdmingameComponent } from './admingame/admingame.component';
     AdmingameComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouteRoutingModule,
+    RouteModule,
   ],
-  providers: [],
+  providers: [Title],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

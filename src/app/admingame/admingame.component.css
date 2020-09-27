@@ -1,7 +1,8 @@
 .card {
-    border: red solid 4px;
     height: 220px;
     cursor: pointer;
+    padding: 15px;
+    box-shadow: 10px 10px 7px black;
 }
 
 #divAdmin {
@@ -9,4 +10,32 @@
     background-position: center;
     background-repeat: no-repeat;
     transition: background 2s ease-in 2s;
+    height: 500px;
+}
+
+.div-card-blue {
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);
+}
+
+.div-card-blue:hover {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);
+}
+
+.div-card-red {
+    background: rgb(199,13,13);
+    background: linear-gradient(90deg, rgba(199,13,13,1) 0%, rgba(249,112,0,1) 66%, rgba(255,244,0,1) 100%);
+}
+
+.div-card-red:hover {
+    background: linear-gradient(270deg, rgba(199,13,13,1) 0%, rgba(249,112,0,1) 66%, rgba(255,244,0,1) 100%);
+}
+
+.div-card-green {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(8,88,0,1) 35%, rgba(94,255,8,1) 100%);
+}
+
+.div-card-green:hover {
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(8,88,0,1) 35%, rgba(94,255,8,1) 100%);
 }
