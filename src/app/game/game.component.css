@@ -29,11 +29,12 @@ section {
 }
 
 .card {
-    height: 350px;
-    width: 400px;
+    height: 400px;
+    width: 250px;
     min-width: 250px;
     padding: 1.5rem;
-    border-radius: 16px;
+    border: solid black 13px;
+    /* border-radius: 16px; */
     background: #17141d;
     box-shadow: -1rem 0 3rem #000;
     display: flex;
@@ -43,6 +44,34 @@ section {
     scroll-snap-align: start;
     clear: both;
     position: relative;
+}
+
+.card-ressource {
+    background: #6a2d1e;
+}
+
+.card-ressource-autre {
+    background: #898989;
+}
+
+.card-marchand {
+    background: #f5b11a;
+}
+
+.card-guilde {
+    background: #5f4688;
+}
+
+.card-science {
+    background: #047e45;
+}
+
+.card-guerre {
+    background: #9d1819;
+}
+
+.card-merveille {
+    background: #006798;
 }
 
 .card:focus-within~.card, .card:hover~.card {
